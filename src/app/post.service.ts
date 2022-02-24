@@ -5,7 +5,7 @@ import { Injectable } from '@angular/core';
 export class PostService {
   constructor(private httpClient: HttpClient) {}
 
-  readonly API_URL = 'http://jsonplaceholder.typicode.com/posts';
+  readonly API_URL = 'https://jsonplaceholder.typicode.com/posts';
 
   getPosts() {
     return this.httpClient.get<Post[]>(this.API_URL);

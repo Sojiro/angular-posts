@@ -2,7 +2,7 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.1.2.
 
-## Run the app
+## Run the app or [Preview here](https://post-tiles.netlify.app/)
 
 Run `npm start` for the app with live server. Navigate to `http://localhost:4200/`.
 
