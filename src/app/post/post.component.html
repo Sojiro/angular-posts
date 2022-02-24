@@ -1,0 +1,14 @@
+<div
+  class="cursor-pointer w-20 h-20 shadow text-4xl post-tile"
+  (click)="postTile.classList.toggle('clicked')"
+  #postTile
+>
+  <div class="box">
+    <div class="w-full h-full front face bg-gray-200 text-black pt-4">
+      {{ post?.id }}
+    </div>
+    <div class="w-full h-full right face bg-black text-slate-100 pt-4">
+      {{ post?.userId }}
+    </div>
+  </div>
+</div>

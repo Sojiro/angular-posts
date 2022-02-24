@@ -1,0 +1,11 @@
+<article class="text-center w-3/6 mx-auto">
+  <h1 class="text-5xl font-bold">{{ title }}</h1>
+  <section
+    class="flex flex-wrap gap-3 justify-center mt-6"
+    *ngIf="posts$ | async as posts"
+  >
+  <ng-container *ngFor="let post of posts; trackBy: postId">
+    <app-post [post]="post"></app-post>
+  </ng-container>
+  </section>
+</article>
